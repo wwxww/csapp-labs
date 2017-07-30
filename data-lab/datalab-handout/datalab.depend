@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1348073072 source:/home/wuxiwen/source/c/csapp/labs/csapp-labs/data-lab/datalab-handout/btest.c
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<signal.h>
+	<setjmp.h>
+	<math.h>
+	"btest.h"
+
+1284403005 /home/wuxiwen/source/c/csapp/labs/csapp-labs/data-lab/datalab-handout/btest.h
+
+1462380593 source:/home/wuxiwen/source/c/csapp/labs/csapp-labs/data-lab/datalab-handout/decl.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"btest.h"
+	"bits.h"
+
+1462380593 /home/wuxiwen/source/c/csapp/labs/csapp-labs/data-lab/datalab-handout/bits.h
+
+1158206608 source:/home/wuxiwen/source/c/csapp/labs/csapp-labs/data-lab/datalab-handout/fshow.c
+	<stdio.h>
+	<stdlib.h>
+
+1158206590 source:/home/wuxiwen/source/c/csapp/labs/csapp-labs/data-lab/datalab-handout/ishow.c
+	<stdlib.h>
+	<stdio.h>
+
+1462380593 source:/home/wuxiwen/source/c/csapp/labs/csapp-labs/data-lab/datalab-handout/tests.c
+	<limits.h>
+	<math.h>
+
