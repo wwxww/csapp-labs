@@ -259,7 +259,13 @@ int isPositive(int x) {
  *   Rating: 3
  */
 int isLessOrEqual(int x, int y) {
-  return 2;
+    int signx = (x>>31) & 1;
+    int signy = (y>>31) & 1;
+    int condition1 = (signx ^ signy) & !(signy);
+    int tmp = y - x;
+    tmp = (!(signx ^ signy)) & !((tmp>>31) & 1);
+    return condition1 | tmp | (!(x^y));
+
 }
 /*
  * ilog2 - return floor(log base 2 of x), where x > 0
